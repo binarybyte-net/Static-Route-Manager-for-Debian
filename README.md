@@ -59,6 +59,10 @@ sudo manage_static_routes.sh
 - Confirm it exists: ip route
 - Reboot your system
 - Check again — the route should still be there ✔️
+- You can check logs after reboot with:
+```bash
+grep ROUTE /var/log/syslog
+```
 
 🛡️ License
 
