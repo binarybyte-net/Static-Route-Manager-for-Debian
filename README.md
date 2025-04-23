@@ -53,9 +53,9 @@ sudo chmod 644 /etc/my_static_routes.conf
 ✅ Test It Works
 
     - Add a route using 
-    ```bash 
-    sudo manage_static_routes.sh
-    ```
+```bash 
+sudo manage_static_routes.sh
+```
     - Confirm it exists: ip route
     - Reboot your system
     - Check again — the route should still be there ✔️
